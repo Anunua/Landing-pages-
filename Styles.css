@@ -1,0 +1,153 @@
+.body{
+    font-family: sans-serif;
+}
+.header-logo{
+    height: auto;
+    width: 100px;
+}
+
+.header{
+    background-color: #1F2937;
+}
+
+a{
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.maintext{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 1000;
+}
+
+.subtext{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.signup{
+    padding:5px;
+    color: #E5E7EB;
+    background-color: #3882F6;
+}
+
+.info{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 1000;
+}
+
+.imgs{
+    border: 5px solid #3882F6;
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+}
+
+.content-middle{
+    background-color: #E5E7EB;
+    padding: 75px;
+}
+
+.quote{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+
+}
+
+.name{
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.content-bottom{
+    padding:50px;
+}
+
+.signup-field{
+    padding: 50px;
+    background-color: #3882F6;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    width: 100%;
+    text-align: center;
+}
+
+/* adding the flex styles */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header-top{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    gap:20px;
+}
+
+.links{
+    padding: 10px;
+    margin:5px;
+    
+}
+
+.header-logo{
+    padding: 10px;
+}
+
+.header-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.content-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    gap: 20px;
+    width: auto;
+}
+
+.content-images{
+    display:flex;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.content-middle{
+    width: auto;
+}
+
+.signup-field{
+    width: auto;
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name{
+    text-align: right;
+}
